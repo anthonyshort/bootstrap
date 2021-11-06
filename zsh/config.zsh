@@ -1,14 +1,23 @@
-export LSCOLORS="exfxcxdxbxegedabagacad"
-export CLICOLOR=true
+# export LSCOLORS="exfxcxdxbxegedabagacad"
+# export CLICOLOR=true
 
 fpath=($ZSH/functions $fpath)
 
 autoload -U $ZSH/functions/*(:t)
 
+# History
+HIST_STAMPS="dd/mm/yyyy"
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 
+# These
+ZSH_THEME="robbyrussell"
+
+# Plugins
+plugins=(git)
+
+# Options
 setopt NO_BG_NICE # don't nice background tasks
 setopt NO_HUP
 setopt NO_LIST_BEEP
