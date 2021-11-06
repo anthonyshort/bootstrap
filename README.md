@@ -59,6 +59,12 @@ this script in `bin/`.
 - Reeder
 - Coinbase wallet
 - Spotify
+- Github CLI
+- Homebrew
+
+## Setup
+
+- vscode `code` CLI
 
 ## Command reference
 
@@ -78,4 +84,14 @@ this script in `bin/`.
 
 - `reload`: Reload zsh
 - `cls`: Clear screen
-
+- `..`: Up directory
+- `~`: Home
+- `l`: List with colour
+- `lt`: List by last modified
+- `la`: List all except . and ..., color, mark file types, long form no user group, file size
+- `lat`: List all except . and ..., color, mark file types, long form no use group, order by last modified, file size
+- `emptytrash`: Empty the Trash on all mounted volumes and the main HDD
+- `cleanlogs`: Clear Apple’s System Logs to improve shell startup speed
+- `cleands`: Remove .DS_Store recursively 
+- `showdotfiles`
+- `hidedotfiles`
