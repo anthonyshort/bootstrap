@@ -28,7 +28,7 @@ There's a few special files in the hierarchy.
 Run this:
 
 ```sh
-git clone https://github.com/holman/dotfiles.git ~/.dotfiles
+git clone https://github.com/anthonyshort/bootstrap.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
@@ -36,8 +36,13 @@ script/bootstrap
 This will symlink the appropriate files in `.dotfiles` to your home directory.
 Everything is configured and tweaked within `~/.dotfiles`.
 
-The main file you'll want to change right off the bat is `zsh/zshrc.symlink`,
+- The main file you'll want to change right off the bat is `zsh/zshrc.symlink`,
 which sets up a few paths that'll be different on your particular machine.
+- Add a `~/.localrc` file that will hold variables outside of the repo but they'll be loaded.
+
+## Usage
+
+### `dot`
 
 `dot` is a simple script that installs some dependencies, sets sane macOS
 defaults, and so on. Tweak this script, and occasionally run `dot` from
@@ -64,8 +69,10 @@ this script in `bin/`.
 
 ## Setup
 
+- Install brew
+- Install nvm
+- Install node
 - vscode `code` CLI
-
 ## Command reference
 
 ### Git
